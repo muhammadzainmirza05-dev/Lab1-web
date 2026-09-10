@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zain — AI Engineer | Computer Vision | Agentic AI</title>
+  <meta name="description" content="Portfolio of Zain — BSCS student building Computer Vision, Deep Learning and Agentic AI systems." />
+  <meta name="theme-color" content="#05060e" />
+
+  <meta property="og:title" content="Zain — AI Engineer | Computer Vision | Agentic AI" />
+  <meta property="og:description" content="Computer Vision • Deep Learning • Agentic AI portfolio." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ================= BACKGROUND FX ================= -->
+  <div class="fx" aria-hidden="true">
+    <span class="orb orb--1"></span>
+    <span class="orb orb--2"></span>
+    <span class="orb orb--3"></span>
+    <span class="fx__grid"></span>
+  </div>
+  <div class="spotlight" id="spotlight" aria-hidden="true"></div>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <a class="skip" href="#hero">Skip to content</a>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#hero" class="brand" aria-label="Zain — home">
+        <span class="brand__mark">Z</span>
+        <span class="brand__text">Zain<span class="brand__dot">.</span></span>
+      </a>
+
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#certs">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a href="#contact" class="btn btn--outline nav__cta">Let's talk</a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="overlay" id="overlay" aria-hidden="true"></div>
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="hero">
+      <div class="container hero__grid">
+
+        <div class="hero__content">
+          <span class="pill reveal" data-delay="0">
+            <i class="pill__dot"></i> Open to internships &amp; collaboration
+          </span>
+
+          <h1 class="hero__title reveal" data-delay="70">Zain</h1>
+
+          <p class="hero__role reveal" data-delay="140">
+            AI Engineer <span class="sep">|</span> Computer Vision <span class="sep">|</span> Agentic AI
+          </p>
+
+          <p class="hero__intro reveal" data-delay="210">
+            I build intelligent systems that <em>see</em>, <em>reason</em> and <em>act</em> —
+            from real-time object-detection pipelines to multi-agent AI workflows.
+            Currently a Computer Science undergrad obsessed with turning research ideas
+            into working products.
+          </p>
+
+          <div class="hero__actions reveal" data-delay="280">
+            <a href="#projects" class="btn btn--primary">
+              View Projects
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#contact" class="btn btn--outline">Contact Me</a>
+          </div>
+
+          <ul class="hero__stats reveal" data-delay="350">
+            <li><strong>10+</strong><span>Projects built</span></li>
+            <li><strong>2</strong><span>Internships</span></li>
+            <li><strong>2027</strong><span>BSCS graduate</span></li>
+          </ul>
+        </div>
+
+        <div class="hero__media reveal" data-delay="200">
+          <div class="portrait">
+            <div class="portrait__fallback" aria-hidden="true">Z</div>
+            <img id="portraitImg" src="assets/profile.jpg" alt="Portrait of Zain" width="640" height="800" />
+            <div class="portrait__ring" aria-hidden="true"></div>
+          </div>
+
+          <span class="float-chip float-chip--1">YOLOv8</span>
+          <span class="float-chip float-chip--2">CrewAI</span>
+          <span class="float-chip float-chip--3">OpenCV</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="eyebrow">01 — About</span>
+          <h2 class="section__title">From curiosity to <span class="grad">applied AI</span></h2>
+        </header>
+
+        <div class="about">
+          <div class="about__text reveal">
+            <p>
+              I'm a <strong>BSCS student (2023 – 2027)</strong> focused on artificial intelligence
+              and software development. What started as writing small Python scripts to automate
+              boring tasks turned into a full obsession with making machines understand the world.
+            </p>
+            <p>
+              I moved from <strong>Python fundamentals</strong> into <strong>Data Science</strong>,
+              then <strong>Machine Learning</strong>, then <strong>Deep Learning</strong> — and today
+              I spend most of my time on <strong>Computer Vision</strong> and <strong>Agentic AI</strong>:
+              systems that detect, track, understand and then take action on their own.
+            </p>
+            <p>
+              I care about the whole loop: clean data, a solid model, and an interface a real
+              person can actually use. Right now I'm looking for internships and projects where
+              I can ship AI that works outside of a notebook.
+            </p>
+          </div>
+
+          <aside class="about__card glass reveal" data-delay="120">
+            <h3 class="about__card-title">My progression</h3>
+            <ol class="journey">
+              <li>Python</li>
+              <li>Data Science</li>
+              <li>Machine Learning</li>
+              <li>Deep Learning</li>
+              <li>Agentic AI</li>
+              <li>Computer Vision</li>
+            </ol>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="section" id="skills">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="eyebrow">02 — Skills</span>
+          <h2 class="section__title">The <span class="grad">toolkit</span> I build with</h2>
+          <p class="section__sub">Comfortable across the stack — from dataset to deployment.</p>
+        </header>
+
+        <div class="skills">
+          <article class="skill-group glass reveal" data-delay="0">
+            <h3 class="skill-group__title"><span class="dot dot--blue"></span> AI &amp; Machine Learning</h3>
+            <ul class="chips">
+              <li class="chip">Python</li>
+              <li class="chip">Machine Learning</li>
+              <li class="chip">Deep Learning</li>
+              <li class="chip">RAG</li>
+            </ul>
+          </article>
+
+          <article class="skill-group glass reveal" data-delay="100">
+            <h3 class="skill-group__title"><span class="dot dot--cyan"></span> Computer Vision</h3>
+            <ul class="chips">
+              <li class="chip">Computer Vision</li>
+              <li class="chip">OpenCV</li>
+              <li class="chip">YOLO</li>
+              <li class="chip">MediaPipe</li>
+            </ul>
+          </article>
+
+          <article class="skill-group glass reveal" data-delay="200">
+            <h3 class="skill-group__title"><span class="dot dot--violet"></span> Agents &amp; Engineering</h3>
+            <ul class="chips">
+              <li class="chip">CrewAI</li>
+              <li class="chip">JavaScript</li>
+              <li class="chip">Git / GitHub</li>
+              <li class="chip">REST APIs</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="section" id="projects">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="eyebrow">03 — Projects</span>
+          <h2 class="section__title">Things I've <span class="grad">designed &amp; shipped</span></h2>
+          <p class="section__sub">Problem → Solution → Stack. Real builds, not tutorials.</p>
+        </header>
+
+        <div class="projects">
+
+          <!-- Project 1 -->
+          <article class="project glass reveal" data-glow data-delay="0">
+            <div class="project__top">
+              <span class="project__index">01</span>
+              <span class="project__badge">Computer Vision</span>
+            </div>
+            <h3 class="project__title">AI Surveillance System</h3>
+
+            <div class="project__block">
+              <h4>Problem</h4>
+              <p>Traditional CCTV only records — nobody can watch 20 feeds at once, so incidents are found hours later, if at all.</p>
+            </div>
+            <div class="project__block">
+              <h4>Solution</h4>
+              <p>A real-time detection pipeline that flags weapons, intrusions and unusual activity the moment it happens, logs every event, and pushes instant alerts with a snapshot.</p>
+            </div>
+
+            <ul class="tags">
+              <li>Python</li><li>YOLOv8</li><li>OpenCV</li><li>Flask</li><li>NumPy</li>
+            </ul>
+
+            <div class="project__links">
+              <a class="plink" href="https://github.com/your-username" target="_blank" rel="noopener">GitHub <span>↗</span></a>
+              <a class="plink" href="#" target="_blank" rel="noopener">Demo <span>↗</span></a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project glass reveal" data-glow data-delay="100">
+            <div class="project__top">
+              <span class="project__index">02</span>
+              <span class="project__badge">Real-time Media</span>
+            </div>
+            <h3 class="project__title">MediaPipe Expression &amp; Gesture Effects</h3>
+
+            <div class="project__block">
+              <h4>Problem</h4>
+              <p>AR filters are either locked inside closed apps or too heavy to run smoothly on an ordinary laptop webcam.</p>
+            </div>
+            <div class="project__block">
+              <h4>Solution</h4>
+              <p>Facial-landmark and hand-tracking driven effects that react live to your expressions and gestures — smooth 30 FPS on CPU, with zero GPU required.</p>
+            </div>
+
+            <ul class="tags">
+              <li>Python</li><li>MediaPipe</li><li>OpenCV</li><li>NumPy</li>
+            </ul>
+
+            <div class="project__links">
+              <a class="plink" href="https://github.com/your-username" target="_blank" rel="noopener">GitHub <span>↗</span></a>
+              <a class="plink" href="#" target="_blank" rel="noopener">Demo <span>↗</span></a>
+            </div>
+          </article>
+
+          <!-- Project 3 — FYP -->
+          <article class="project project--featured glass reveal" data-glow data-delay="200">
+            <div class="project__top">
+              <span class="project__index">03</span>
+              <span class="project__badge project__badge--live">Final Year Project</span>
+            </div>
+            <h3 class="project__title">Autonomous Multi-Agent Research Assistant</h3>
+
+            <div class="project__block">
+              <h4>Problem</h4>
+              <p>Research workflows are repetitive: search, read, extract, summarise, cite. Doing it manually kills days and context.</p>
+            </div>
+            <div class="project__block">
+              <h4>Solution</h4>
+              <p>A crew of specialised agents (researcher, analyst, writer, critic) that plan their own steps, pull from a RAG knowledge base, verify each other and deliver a cited report.</p>
+            </div>
+
+            <ul class="tags">
+              <li>CrewAI</li><li>RAG</li><li>Vector DB</li><li>LLM APIs</li><li>Python</li>
+            </ul>
+
+            <div class="project__links">
+              <a class="plink" href="https://github.com/your-username" target="_blank" rel="noopener">GitHub <span>↗</span></a>
+              <a class="plink" href="#" target="_blank" rel="noopener">Case Study <span>↗</span></a>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project glass reveal" data-glow data-delay="300">
+            <div class="project__top">
+              <span class="project__index">04</span>
+              <span class="project__badge">LLM Application</span>
+            </div>
+            <h3 class="project__title">RAG Knowledge Chatbot</h3>
+
+            <div class="project__block">
+              <h4>Problem</h4>
+              <p>Generic chatbots hallucinate on private documents and can't answer questions about your own notes.</p>
+            </div>
+            <div class="project__block">
+              <h4>Solution</h4>
+              <p>Document ingestion + chunking + embedding search, so every answer is grounded in retrieved source passages with citations shown to the user.</p>
+            </div>
+
+            <ul class="tags">
+              <li>Python</li><li>RAG</li><li>FAISS</li><li>Embeddings</li>
+            </ul>
+
+            <div class="project__links">
+              <a class="plink" href="https://github.com/your-username" target="_blank" rel="noopener">GitHub <span>↗</span></a>
+              <a class="plink" href="#" target="_blank" rel="noopener">Demo <span>↗</span></a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+    <section class="section" id="education">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="eyebrow">04 — Education</span>
+          <h2 class="section__title">Academic <span class="grad">background</span></h2>
+        </header>
+
+        <div class="timeline">
+          <article class="tl-item glass reveal">
+            <div class="tl-item__head">
+              <h3>BS Computer Science (BSCS)</h3>
+              <span class="tl-date">2023 — 2027</span>
+            </div>
+            <p class="tl-place">University Name — City, Country</p>
+            <p class="tl-desc">
+              Core focus on Artificial Intelligence and software development. Coursework in Data
+              Structures &amp; Algorithms, Databases, Operating Systems, Machine Learning and
+              Computer Vision.
+            </p>
+            <ul class="tags tags--sm">
+              <li>Data Structures</li><li>Machine Learning</li><li>Computer Vision</li><li>DBMS</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section class="section" id="experience">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="eyebrow">05 — Experience</span>
+          <h2 class="section__title">Where I've <span class="grad">worked</span></h2>
+        </header>
+
+        <div class="timeline">
+          <article class="tl-item glass reveal">
+            <div class="tl-item__head">
+              <h3>Computer Vision Intern</h3>
+              <span class="tl-date">Summer 2025</span>
+            </div>
+            <p class="tl-place">Company Name — Remote / On-site</p>
+            <ul class="bullets">
+              <li>Built and fine-tuned YOLO detection models on a custom annotated dataset.</li>
+              <li>Wrote OpenCV preprocessing pipelines that cut inference time significantly.</li>
+              <li>Evaluated models with mAP / precision-recall and documented results for the team.</li>
+            </ul>
+            <ul class="tags tags--sm">
+              <li>YOLO</li><li>OpenCV</li><li>Python</li><li>Model Evaluation</li>
+            </ul>
+          </article>
+
+          <article class="tl-item glass reveal" data-delay="120">
+            <div class="tl-item__head">
+              <h3>Agentic AI Apprentice</h3>
+              <span class="tl-date">2025</span>
+            </div>
+            <p class="tl-place">Program / Organization Name</p>
+            <ul class="bullets">
+              <li>Designed multi-agent workflows with CrewAI for research and automation tasks.</li>
+              <li>Implemented RAG pipelines with vector search to ground LLM responses.</li>
+              <li>Collaborated in a small team using Git/GitHub for version control.</li>
+            </ul>
+            <ul class="tags tags--sm">
+              <li>CrewAI</li><li>RAG</li><li>LLM APIs</li><li>Git</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CERTIFICATIONS ================= -->
+    <section class="section" id="certs">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="eyebrow">06 — Certifications</span>
+          <h2 class="section__title">Verified <span class="grad">learning</span></h2>
+        </header>
+
+        <div class="certs">
+          <article class="cert glass reveal" data-glow data-delay="0">
+            <span class="cert__icon">🎓</span>
+            <h3>Deep Learning Specialization</h3>
+            <p class="cert__issuer">DeepLearning.AI — Coursera</p>
+            <span class="cert__date">Issued 2025</span>
+          </article>
+
+          <article class="cert glass reveal" data-glow data-delay="100">
+            <span class="cert__icon">👁️</span>
+            <h3>Computer Vision with OpenCV</h3>
+            <p class="cert__issuer">Issuer Name</p>
+            <span class="cert__date">Issued 2025</span>
+          </article>
+
+          <article class="cert glass reveal" data-glow data-delay="200">
+            <span class="cert__icon">🤖</span>
+            <h3>Agentic AI &amp; Multi-Agent Systems</h3>
+            <p class="cert__issuer">Issuer Name</p>
+            <span class="cert__date">Issued 2025</span>
+          </article>
+
+          <article class="cert glass reveal" data-glow data-delay="300">
+            <span class="cert__icon">📊</span>
+            <h3>Machine Learning with Python</h3>
+            <p class="cert__issuer">Issuer Name</p>
+            <span class="cert__date">Issued 2024</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section" id="contact">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="eyebrow">07 — Contact</span>
+          <h2 class="section__title">Let's build something <span class="grad">intelligent</span></h2>
+          <p class="section__sub">Open to internships, freelance work and research collaborations.</p>
+        </header>
+
+        <div class="contact">
+          <div class="contact__info reveal">
+            <a class="contact__row glass" href="mailto:zain@example.com">
+              <span class="contact__icon">✉️</span>
+              <span>
+                <strong>Email</strong>
+                <em>zain@example.com</em>
+              </span>
+            </a>
+
+            <a class="contact__row glass" href="https://linkedin.com/in/your-username" target="_blank" rel="noopener">
+              <span class="contact__icon">in</span>
+              <span>
+                <strong>LinkedIn</strong>
+                <em>/in/your-username</em>
+              </span>
+            </a>
+
+            <a class="contact__row glass" href="https://github.com/your-username" target="_blank" rel="noopener">
+              <span class="contact__icon">⌥</span>
+              <span>
+                <strong>GitHub</strong>
+                <em>@your-username</em>
+              </span>
+            </a>
+          </div>
+
+          <form class="contact__form glass reveal" id="contactForm" novalidate data-delay="120">
+            <div class="field">
+              <label for="name">Your name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Doe" autocomplete="name" />
+              <span class="field__error" data-error-for="name"></span>
+            </div>
+
+            <div class="field">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" placeholder="jane@example.com" autocomplete="email" />
+              <span class="field__error" data-error-for="email"></span>
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or role…"></textarea>
+              <span class="field__error" data-error-for="message"></span>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--full">
+              Send Message
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+            </button>
+
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year">2025</span> Zain — Built from scratch with HTML, CSS &amp; JavaScript.</p>
+      <div class="footer__links">
+        <a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:zain@example.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
